@@ -1,0 +1,32 @@
+.container {
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem;  
+}
+  
+.btn {
+  background-color: black;
+  color: white;
+  font-size: medium;
+  border-radius: .5rem;
+  margin: .2rem;
+  padding: .3rem;
+  cursor: pointer;
+  transition: .3s;
+  height: 2.3rem;
+  width: 7rem;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.input{
+  border-radius: .2rem;
+  width: 22rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-right: .3rem;
+  border: 2px solid black;
+}
