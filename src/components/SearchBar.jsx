@@ -3,7 +3,6 @@ import style from "../styles/SearchBar.module.css"
 import { useState } from "react";
 
 
-
 function SearchBar({ onSearch}) {
    const [character, setCharacter] = useState('') // mi estado es un string no un obj
 //character es el estado
