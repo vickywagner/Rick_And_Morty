@@ -7,7 +7,7 @@ const About = () => {
             <h1>About</h1>
             <div>
             <h3 className={style.containerInfo}>Mi nombre es Victoria, estoy realizando la carrera Full Stack Web Development en el Bootcamp de Soy Henry 
-                y actualmente estoy cursando el Modulo 2 donde aprendemos Front-End.</h3>
+                y este es mi primer proyecto, donde aplicamos lo aprendido.</h3>
             </div>
 
         </div>

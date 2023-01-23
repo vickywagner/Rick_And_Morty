@@ -25,16 +25,18 @@ const Detail = () => {
       }, [detailId]);
 
     return(
-        <div>
+        <div className={style.container}>
             <button className = {style.btn}>
-                <Link to="/home" >Home</Link>
+                <Link to="/home" className={style.link}  >Home</Link>
             </button>
             <h1 className = {style.title} >{character?.name}</h1>
-            <p className = {style.info} >{character?.status}</p> 
-            <p className = {style.info} >{character?.species}</p>
-            <p className = {style.info} >{character?.gender}</p>
-            <p className = {style.info} >{character?.origin?.name}</p>
-            <img src={character?.image} alt={character.name} />
+            <p className = {style.info} >Status: {character?.status}</p> 
+            <p className = {style.info} >Specie: {character?.species}</p>
+            <p className = {style.info} >Gender: {character?.gender}</p>
+            <p className = {style.info} >Origin: {character?.origin?.name}</p>
+            <div className={style.containerImg} >
+              <img src={character?.image} alt={character.name} />
+            </div>
         </div>
     )
 }

@@ -1,13 +1,14 @@
 .container {
     flex-direction: row;
     align-items: center;
+    display: flex;
     padding: .5rem;  
 }
   
 .btn {
   background-color: black;
   color: white;
-  font-size: medium;
+  font-size: 1rem;
   border-radius: .5rem;
   margin: .2rem;
   padding: .3rem;

@@ -9,6 +9,6 @@
 .containerInfo{
     background-color: rgb(33, 29, 59);
     border: transparent;
-    border-radius: .5rem
-    
+    border-radius: .5rem;
+    font-weight: 300;
 }
