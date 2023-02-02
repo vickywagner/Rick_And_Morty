@@ -1,0 +1,10 @@
+.App {
+   text-align: center;
+}
+
+body {
+   text-align: center;
+   background-image: url(./Image/stars4.jpg);
+   height: 100%;
+   width: 100%;
+}
